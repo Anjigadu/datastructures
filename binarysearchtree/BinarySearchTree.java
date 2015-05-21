@@ -88,6 +88,22 @@ public class BinarySearchTree {
 	
 	
 	public boolean deleteChild(int x){
+		BinaryNode u = this.search(x);
+		if(u==null)
+			return false;
+		else{
+			if(u.left==null || u.right==null)
+				splice(u);
+			else{
+				BinaryNode w = u.right;
+				while(w.left!=null){
+					w = w.left;
+				}
+				u.value = w.value;
+				splice(w);
+			}
+			return true;
+		}
 		
 	}
 	
@@ -101,6 +117,13 @@ public class BinarySearchTree {
 		p = u.parent;
 		if(u==this.r){
 			this.r = s;
+		}else{
+			if(u==p.left)
+				p.left = s;
+			else
+				p.right = s;
+			if(s!=null)
+				s.parent = p;
 		}
 		
 	}
