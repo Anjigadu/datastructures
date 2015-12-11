@@ -4,7 +4,7 @@ Geeks For Geeks
 
 ~~Handshaking Lemma and Interesting Tree Properties~~
 
-Binary Tree Properties
+~~Binary Tree Properties~~
 
 ~~Types of Binary Tree~~
 
