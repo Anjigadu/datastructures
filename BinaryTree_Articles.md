@@ -2,7 +2,7 @@ Geeks For Geeks
 
 ~~Binary Tree Introduction~~
 
-Handshaking Lemma and Interesting Tree Properties
+~~Handshaking Lemma and Interesting Tree Properties~~
 
 Binary Tree Properties
 
