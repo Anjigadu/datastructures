@@ -16,7 +16,7 @@ Geeks For Geeks
 
 ~~Threaded Binary Tree~~
 
-Size of a tree
+~~Size of a tree~~
 
 Determine if Two Trees are Identical
 
