@@ -8,7 +8,7 @@ Geeks For Geeks
 
 ~~Types of Binary Tree~~
 
-Enumeration of Binary Tree
+~~Enumeration of Binary Tree~~
 
 Applications of tree data structure
 
