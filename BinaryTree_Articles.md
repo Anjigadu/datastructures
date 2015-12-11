@@ -1,9 +1,13 @@
 Geeks For Geeks 
 
 ~~Binary Tree Introduction~~
+
 Handshaking Lemma and Interesting Tree Properties
+
 Binary Tree Properties
+
 ~~Types of Binary Tree~~
+
 Enumeration of Binary Tree
 Applications of tree data structure
 Tree Traversals
