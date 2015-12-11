@@ -12,9 +12,9 @@ Geeks For Geeks
 
 ~~Applications of tree data structure~~
 
-Tree Traversals
+~~Tree Traversals~~
 
-Threaded Binary Tree
+~~Threaded Binary Tree~~
 
 Size of a tree
 
