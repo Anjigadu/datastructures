@@ -10,7 +10,7 @@ Geeks For Geeks
 
 ~~Enumeration of Binary Tree~~
 
-Applications of tree data structure
+~~Applications of tree data structure~~
 
 Tree Traversals
 
