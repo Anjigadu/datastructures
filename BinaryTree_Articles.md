@@ -29,13 +29,13 @@ Geeks For Geeks
 
 ~~If you are given two traversal sequences, can you construct the binary tree?~~  One has to be Inorder
 
-Given a binary tree, print out all of its root-to-leaf paths one per line.
+~~Given a binary tree, print out all of its root-to-leaf paths one per line.~~ use path array and path len, recur left, right ,priint on leaves
 
-The Great Tree-List Recursion Problem.
+The Great Tree-List Recursion Problem. 
 
-Level Order Tree Traversal
+~~Level Order Tree Traversal~~  1. Using Queue, 2. iter from 1 to height; for each iter, Recur and print on level =1 , else recur to lefft & right with level-1
 
-Count leaf nodes in a binary tree
+~~Count leaf nodes in a binary tree~~
 
 Level order traversal in spiral form
 
