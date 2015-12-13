@@ -2,7 +2,7 @@ Geeks For Geeks
 
 ~~Binary Tree Introduction~~
 
-~~Handshaking Lemma and Interesting Tree Properties~~ number of odd degree vertices are even
+~~Handshaking Lemma and Interesting Tree Properties~~number of odd degree vertices are even
 
 ~~Binary Tree Properties~~
 
@@ -10,23 +10,24 @@ Geeks For Geeks
 
 ~~Enumeration of Binary Tree~~ Catalan numbers T(n) = Sum i=0 to n-1 ( T(i) * T(n-i-1)) , T(n) = 2n!/(n+1)!*n! for un labled
  for labled find ? (hint permutation)
+ 
 ~~Applications of tree data structure~~
 
 ~~Tree Traversals~~
 
 ~~Threaded Binary Tree~~ using rightThread / right & left Thread
   
-~~Size of a tree~~
+~~Size of a tree~~ traverse & count
 
-~~Determine if Two Trees are Identical~~
+~~Determine if Two Trees are Identical~~ do any traversal simulataneously
 
-Maximum Depth or Height of a Tree
+~~Maximum Depth or Height of a Tree~~ traverse left,right & find max +1
 
-Write a C program to Delete a Tree.
+~~Write a C program to Delete a Tree.~~ using post order
 
-Write an Efficient C Function to Convert a Binary Tree into its Mirror Tree
+~~Write an Efficient C Function to Convert a Binary Tree into its Mirror Tree~~
 
-If you are given two traversal sequences, can you construct the binary tree?
+~~If you are given two traversal sequences, can you construct the binary tree?~~  One has to be Inorder
 
 Given a binary tree, print out all of its root-to-leaf paths one per line.
 
