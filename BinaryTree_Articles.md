@@ -2,23 +2,23 @@ Geeks For Geeks
 
 ~~Binary Tree Introduction~~
 
-~~Handshaking Lemma and Interesting Tree Properties~~
+~~Handshaking Lemma and Interesting Tree Properties~~ number of odd degree vertices are even
 
 ~~Binary Tree Properties~~
 
-~~Types of Binary Tree~~
+~~Types of Binary Tree~~  Full,Complete
 
-~~Enumeration of Binary Tree~~
-
+~~Enumeration of Binary Tree~~ Catalan numbers T(n) = Sum i=0 to n-1 ( T(i) * T(n-i-1)) , T(n) = 2n!/(n+1)!*n! for un labled
+ for labled find ? (hint permutation)
 ~~Applications of tree data structure~~
 
 ~~Tree Traversals~~
 
-~~Threaded Binary Tree~~
-
+~~Threaded Binary Tree~~ using rightThread / right & left Thread
+  
 ~~Size of a tree~~
 
-Determine if Two Trees are Identical
+~~Determine if Two Trees are Identical~~
 
 Maximum Depth or Height of a Tree
 
