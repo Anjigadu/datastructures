@@ -1,5 +1,5 @@
 
-    Search and Insert in BST
+    ~~Search and Insert in BST~~
     
     Deletion from BST
     
