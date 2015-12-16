@@ -44,12 +44,12 @@ Check for Children Sum Property in a Binary Tree.
 
 Convert an arbitrary Binary Tree to a tree that holds Children Sum Property
 
-Diameter of a Binary Tree
+~~Diameter of a Binary Tree~~ max( dia(left_tree), dia(right_tree),(lh+rh)+1)
 
 How to determine if a binary tree is height-balanced?
 
 
-Inorder Tree Traversal without Recursion
+~~Inorder Tree Traversal without Recursion~~ use stack, leftmost, stack not null & curr null go right else done
 
 Inorder Tree Traversal without recursion and without stack!
 
