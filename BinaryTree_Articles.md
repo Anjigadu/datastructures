@@ -33,7 +33,7 @@ Geeks For Geeks
 
 The Great Tree-List Recursion Problem. 
 
-~~Level Order Tree Traversal~~  1. Using Queue, 2. iter from 1 to height; for each iter, Recur and print on level =1 , else recur to lefft & right with level-1
+~~Level Order Tree Traversal~~  1. Using Queue, 2. have a method to print nodes @ particular level . call the method from 1 to height(tree)
 
 ~~Count leaf nodes in a binary tree~~
 
