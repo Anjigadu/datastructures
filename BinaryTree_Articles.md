@@ -61,11 +61,11 @@ Given a binary tree, print all root-to-leaf paths
 
 Double Tree
 
-Maximum width of a binary tree
+~~Maximum width of a binary tree~~ nodes at each level
 
 Foldable Binary Trees
 
-Print nodes at k distance from root
+~~Print nodes at k distance from root~~ recur until level is found each time reduce level-1 as in lelve order traversal
 
 Get Level of a node in a Binary Tree
 
