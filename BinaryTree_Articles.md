@@ -75,7 +75,7 @@ Check if a given Binary Tree is SumTree
 
 Check if a binary tree is subtree of another binary tree
 
-Connect nodes at same level
+~~Connect nodes at same level~~
 
 Connect nodes at same level using constant extra space
 
