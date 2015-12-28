@@ -51,7 +51,7 @@ How to determine if a binary tree is height-balanced?
 
 ~~Inorder Tree Traversal without Recursion~~ use stack, leftmost, stack not null & curr null go right else done
 
-Inorder Tree Traversal without recursion and without stack!
+~~Inorder Tree Traversal without recursion and without stack! ~~ Morris Traversal using threaded tree. Draw tree , create thread, remove thread, mimic in loop. if current has left => create/remove thread{go to right most and if null create else if =current remove } else print and go right.
 
 Root to leaf path sum equal to a given number
 
