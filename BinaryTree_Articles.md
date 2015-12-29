@@ -55,7 +55,7 @@ How to determine if a binary tree is height-balanced?
 
 Root to leaf path sum equal to a given number
 
-~~Construct Tree from given Inorder and Preorder traversals~~
+~~Construct Tree from given Inorder and Preorder traversals~~ Find the root in pre/post order then find position of root in inorder, traverse left sub tree, right sub tree in inorder recursively
 
 Given a binary tree, print all root-to-leaf paths
 
@@ -69,7 +69,7 @@ Foldable Binary Trees
 
 Get Level of a node in a Binary Tree
 
-Print Ancestors of a given node in Binary Tree
+~~Print Ancestors of a given node in Binary Tree~~ If a node has the target node in its left/right sub tree then print)
 
 Check if a given Binary Tree is SumTree
 
