@@ -55,7 +55,7 @@ How to determine if a binary tree is height-balanced?
 
 Root to leaf path sum equal to a given number
 
-Construct Tree from given Inorder and Preorder traversals
+~~Construct Tree from given Inorder and Preorder traversals~~
 
 Given a binary tree, print all root-to-leaf paths
 
