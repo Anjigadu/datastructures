@@ -4,7 +4,7 @@
     
     ~~Deletion from BST~~ 1. no child free node, 2. one child copy the child to root and empty the child 3. two childs, find inorder successor(min(right_sub_tree)) / inorder predesor(max(left_sub_tree) and replace the value with root and remove that node recursively
     
-    ~~Minimum value in a Binary Search Tree~~ go left most node
+    ~~Minimum value in a Binary Search Tree~~ go left most node until not empty
     
     ~~Inorder predecessor and successor for a given key in BST~~ If present max of left = predesor and min of right = succesor , else whenever making branch keep the previous value as predessor / successor as applicable
     
