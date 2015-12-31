@@ -21,6 +21,11 @@ Binary Search Tree related articles
     
 * Check if a binary tree is BST or not
 
+>  Approach 1: start with func(root,int_min,int_max) & check whether the node's value lies between min & max and recursively call
+    func(root->left,min,root->key-1) && func(root->right,root->key+1,max)
+    
+> Approach 2: Do in order traversal keep prev node value and check whether the node's value is greater than previous value always. 
+
 * Lowest Common Ancestor in a Binary Search Tree.
 
 * Sorted order printing of a given array that represents a BST
