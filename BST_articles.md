@@ -28,6 +28,8 @@ Binary Search Tree related articles
 
 * Lowest Common Ancestor in a Binary Search Tree.
 
+ > Check if root is in between n1 & n2 then root is lca else if n1 & n2 < root , recur left sub tree else recur right sub tree
+
 * Sorted order printing of a given array that represents a BST
 
 * Inorder Successor in Binary Search Tree
