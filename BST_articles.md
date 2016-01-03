@@ -34,6 +34,8 @@ Binary Search Tree related articles
 
 * Inorder Successor in Binary Search Tree
 
+ > InOrder successor is min of right sub tree if right sub tree exists,else traverse from rooot and find the last node visited.
+
 * Find k-th smallest element in BST (Order Statistics in BST)
 
 * K’th smallest element in BST using O(1) Extra Space
