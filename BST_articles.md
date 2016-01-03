@@ -60,6 +60,14 @@ Binary Search Tree related articles
 
 * Two nodes of a BST are swapped, correct the BST
 
+ > Do inorder recursion, maintain prev pointer
+ 
+ > If root->data < prev pointer (in between left & right traversal)
+ 
+ > populate prev as first , root as middle and if they alreay not null then root as last
+ 
+ > swap first & last (if exist) or first & middle
+
 * Construct BST from given preorder traversal | Set 1
 
 * Construct BST from given preorder traversal | Set 2
