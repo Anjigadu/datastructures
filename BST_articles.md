@@ -3,38 +3,40 @@ Binary Search Tree related articles
     
 * Search and Insert in BST
 
-> traverse the tree recursively and insert in leaf(root=null) create new node
+    > traverse the tree recursively and insert in leaf(root=null) create new node
     
 * Deletion from BST
 
-> 1. no child free node,
-2. one child copy the child to root and empty the child 
-3. two childs, find inorder successor(min(right_sub_tree)) / inorder predesor(max(left_sub_tree) and replace the value with root and remove that node recursively
+    > 1. no child free node,
+    > 2. one child copy the child to root and empty the child 
+    > 3. two childs, find inorder successor(min(right_sub_tree)) / inorder predesor(max(left_sub_tree) and replace the value with root
+    and remove that node recursively
     
 * Minimum value in a Binary Search Tree
 
-> go left most node until not empty
+    > go left most node until not empty
     
 * Inorder predecessor and successor for a given key in BST
 
-> If present max of left = predesor and min of right = succesor , else whenever making branch keep the previous value as predessor / successor as applicable
+    > If present max of left = predesor and min of right = succesor , else whenever making branch keep the previous value as predessor
+    / successor as applicable
     
 * Check if a binary tree is BST or not
 
->  Approach 1: start with func(root,int_min,int_max) & check whether the node's value lies between min & max and recursively call
+    >  Approach 1: start with func(root,int_min,int_max) & check whether the node's value lies between min & max and recursively call
     func(root->left,min,root->key-1) && func(root->right,root->key+1,max)
     
-> Approach 2: Do in order traversal keep prev node value and check whether the node's value is greater than previous value always. 
+    > Approach 2: Do in order traversal keep prev node value and check whether the node's value is greater than previous value always. 
 
 * Lowest Common Ancestor in a Binary Search Tree.
 
- > Check if root is in between n1 & n2 then root is lca else if n1 & n2 < root , recur left sub tree else recur right sub tree
+    > Check if root is in between n1 & n2 then root is lca else if n1 & n2 < root , recur left sub tree else recur right sub tree
 
 * Sorted order printing of a given array that represents a BST
 
 * Inorder Successor in Binary Search Tree
 
- > InOrder successor is min of right sub tree if right sub tree exists,else traverse from rooot and find the last node visited.
+    > InOrder successor is min of right sub tree if right sub tree exists,else traverse from rooot and find the last node visited.
 
 * Find k-th smallest element in BST (Order Statistics in BST)
 
@@ -68,13 +70,13 @@ Binary Search Tree related articles
 
 * Two nodes of a BST are swapped, correct the BST
 
- > Do inorder recursion, maintain prev pointer
+    > Do inorder recursion, maintain prev pointer
  
- > If root->data < prev pointer (in between left & right traversal)
+    > If root->data < prev pointer (in between left & right traversal)
  
- > populate prev as first , root as middle and if they alreay not null then root as last
+    > populate prev as first , root as middle and if they alreay not null then root as last
  
- > swap first & last (if exist) or first & middle
+    > swap first & last (if exist) or first & middle
 
 * Construct BST from given preorder traversal | Set 1
 
@@ -94,13 +96,13 @@ Binary Search Tree related articles
 
 * Merge Two Balanced Binary Search Trees
 
-> In order traversal of tree 1 and store in arr1
+    > In order traversal of tree 1 and store in arr1
 
-> In order traversal of tree 2 and store in arr2
+    > In order traversal of tree 2 and store in arr2
 
-> merge two sorted arrays.
+    > merge two sorted arrays.
 
-> from sorted array construct balanced bst which takes O(m+n) time.
+    > from sorted array construct balanced bst which takes O(m+n) time.
 
 * Binary Tree to Binary Search Tree Conversion
 
