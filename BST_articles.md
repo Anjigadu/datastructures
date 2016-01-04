@@ -102,6 +102,10 @@ Binary Search Tree related articles
 
 * In-place conversion of Sorted DLL to Balanced BST
 
+    > Approach 1: Find middle and recursively construct left and right as in sorted array
+    
+    > Approach 2: count number of nodes, recursively call and set left = func(head,n/2) and set root = head and head->next; then call right = func(head,n-n/2-1)
+
 * Find a pair with given sum in a Balanced BST
 
     > Do in order & reverse in order simultaneously
