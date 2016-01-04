@@ -104,6 +104,11 @@ Binary Search Tree related articles
 
 * Find a pair with given sum in a Balanced BST
 
+    > Do in order & reverse in order simultaneously
+    > compare values whenever value popped out from stack stop and compare, if val1 + val2 = sum, then return true
+    > if val1 + val2 < sum, then continue inorder
+    > if val1 + val2 > sum, then continue reverse inorder
+    
 * Total number of possible Binary Search Trees with n keys
 
 * Merge Two Balanced Binary Search Trees
