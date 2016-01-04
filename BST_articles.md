@@ -123,6 +123,12 @@ Binary Search Tree related articles
 
 * Binary Tree to Binary Search Tree Conversion
 
+    > The structure should not be changed but tree has to become bst
+    
+    > Do in-order traversal and store in aux array.
+    
+    > Do in order traversal again and replace the data each time.
+
 * Transform a BST to greater sum tree
 
 * Inorder predecessor and successor for a given key in BST
