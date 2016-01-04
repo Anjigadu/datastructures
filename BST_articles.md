@@ -40,6 +40,10 @@ Binary Search Tree related articles
 
 * Find k-th smallest element in BST (Order Statistics in BST)
 
+    > Itrerative In order traversal, and do until K number of elements traversed.
+    
+    > Or use augmented tree, store number of nodes in left sub tree , for each node. & match with node where K = lcount + 1 return
+
 * K’th smallest element in BST using O(1) Extra Space
 
 * Print BST keys in the given range
