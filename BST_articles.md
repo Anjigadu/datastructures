@@ -94,6 +94,14 @@ Binary Search Tree related articles
 
 * Merge Two Balanced Binary Search Trees
 
+> In order traversal of tree 1 and store in arr1
+
+> In order traversal of tree 2 and store in arr2
+
+> merge two sorted arrays.
+
+> from sorted array construct balanced bst which takes O(m+n) time.
+
 * Binary Tree to Binary Search Tree Conversion
 
 * Transform a BST to greater sum tree
