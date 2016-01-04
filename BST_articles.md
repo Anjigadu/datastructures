@@ -44,6 +44,14 @@ Binary Search Tree related articles
 
 * Sorted Array to Balanced BST
 
+    > createBST(arr[],start,end)
+    
+    > Find middle element and create root = arr[mid]
+    
+    > root->left = createBST(arr[],start,mid-1)
+    
+    > root->right = createBST(arr[],mid+1,end)
+
 * Find the largest BST subtree in a given Binary Tree
 
 * Check for Identical BSTs without building the trees
