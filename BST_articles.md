@@ -68,6 +68,14 @@ Binary Search Tree related articles
 
 * Merge two BSTs with limited extra space
 
+    > Do like, inorder traversal with two stacks for each tree
+
+    > If one stack empty, do inorder traversal of other tree and to avoid alreay printed elements make current ->left = NULL
+
+    > else, pop elements form stacks and compare them. whichever less print and set that current as current->right , for the other one
+    push back to stack and set that current as NULL so that next time it will be processed
+
+
 * Two nodes of a BST are swapped, correct the BST
 
     > Do inorder recursion, maintain prev pointer
