@@ -10,6 +10,16 @@ Stack Artciles
 
 2. Infix to Postfix Conversion using Stack
 
+ > Read expression from left to right
+ 
+ > If operand output it.
+ 
+ > else 
+    > if stack is empty || top element priority is less than curr element precedence push to stack.
+    > else pop the operators from stack until previous condition
+    > For open paranthesis push, for close paranthesis pop until open paranthesis.
+
+
 3. Evaluation of Postfix Expression
 
 4. Reverse a String using Stack
