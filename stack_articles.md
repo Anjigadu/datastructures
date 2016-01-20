@@ -2,19 +2,20 @@ Stack Artciles
 ==============
 
 ~~1. Introduction to Stack~~
- > Linear data structure. Supports push, pop, peek.
+
+  > Linear data structure. Supports push, pop, peek.
  
- > Implemented using linked list(dynamic size) and array(fixed size).
+  > Implemented using linked list(dynamic size) and array(fixed size).
  
- > Used widely for maintaining history, undo,redo and program stack
+  > Used widely for maintaining history, undo,redo and program stack
 
 2. Infix to Postfix Conversion using Stack
 
- > Read expression from left to right
+  > Read expression from left to right
  
- > If operand output it.
+  > If operand output it.
  
- > else 
+  > else 
     > if stack is empty || top element priority is less than curr element precedence push to stack.
     > else pop the operators from stack until previous condition
     > For open paranthesis push, for close paranthesis pop until open paranthesis.
@@ -22,15 +23,19 @@ Stack Artciles
 
 3. Evaluation of Postfix Expression
 
-> Postfix expression evaluation can be done faster in computers since higher priority elements are present first 
+ > Postfix expression evaluation can be done faster in computers since higher priority elements are present first 
 
-> create a stack to store operands.
+ > create a stack to store operands.
 
-> If operand push it to stack
+ > If operand push it to stack
 
-> If operator pop two elements from stack; perform operation and push the result into stack.
+ > If operator pop two elements from stack; perform operation and push the result into stack.
 
 4. Reverse a String using Stack
+
+ > Push all to stack and then pop all back
+
+ > Till n/2 , swap i , n-i 
 
 5. Implement two stacks in an array
 
