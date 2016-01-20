@@ -22,6 +22,14 @@ Stack Artciles
 
 3. Evaluation of Postfix Expression
 
+> Postfix expression evaluation can be done faster in computers since higher priority elements are present first 
+
+> create a stack to store operands.
+
+> If operand push it to stack
+
+> If operator pop two elements from stack; perform operation and push the result into stack.
+
 4. Reverse a String using Stack
 
 5. Implement two stacks in an array
