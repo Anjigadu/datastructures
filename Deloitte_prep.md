@@ -5,7 +5,7 @@ Deloitte Interview preparation
 	- **Collections**
 	- Threads
 	- **Interview Specific questions**
-+ Spring
++ **Spring**
 + Spring MVC
 + Hibernate
 + Queries
