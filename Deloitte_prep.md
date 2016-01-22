@@ -2,7 +2,7 @@ Deloitte Interview preparation
 =
 
 + Core Java
-	- Collections
+	- **Collections**
 	- Threads
 	- **Interview Specific questions**
 + Spring
