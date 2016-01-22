@@ -11,5 +11,5 @@ Deloitte Interview preparation
 + Queries
 + **Resume**
 + **Projects**
-+ versant
++ **versant**
 + HR round questions
