@@ -9,7 +9,7 @@ Deloitte Interview preparation
 	- oops
 
 + **Spring**
-+ Spring MVC
++ **Spring MVC**
 + Hibernate
 + Queries
 + **Resume**
