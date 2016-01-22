@@ -5,6 +5,9 @@ Deloitte Interview preparation
 	- **Collections**
 	- Threads
 	- **Interview Specific questions**
+	- Exception
+	- oops
+
 + **Spring**
 + Spring MVC
 + Hibernate
