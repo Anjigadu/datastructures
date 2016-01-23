@@ -10,7 +10,7 @@ Deloitte Interview preparation
 
 + **Spring**
 + **Spring MVC**
-+ Hibernate
++ **Hibernate**
 + Queries
 + **Resume**
 + **Projects**
