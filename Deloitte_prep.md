@@ -1,12 +1,12 @@
 Deloitte Interview preparation
 =
 
-+ Core Java
++ **Core Java**
 	- **Collections**
-	- Threads
+	- **Threads**
 	- **Interview Specific questions**
-	- Exception
-	- oops
+	- **Exception**
+	- **oops**
 
 + **Spring**
 + **Spring MVC**
